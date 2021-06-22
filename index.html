@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script src="script.js"></script>
+    
+</head>
+<style>
+       .header{
+           text-align: center;
+           font-family: sans-serif;
+           font-size: 18px;
+           background: red;
+       }
+       .container{
+           text-align: center;
+           font-size: 30px;
+       }
+</style>
+<body>
+    <div class="header">
+        <h1> JavaScript</h1>
+    </div>
+    <hr>
+
+    <div class="container">
+        <p id="para1">Page 1</p>
+    <button onclick="ChanceColor(), click(this),this.innerHTML='Pushed the Button',push()">Push</button> <br/>  <!--burada push yazısına tıklanıldıktan sonra Pushed the Button Olarak degısecektır -->
+   <button onmouseover="mouseover()" onmouseout="mouseout()" > Push 2</button>
+
+   <form action="gonder.php" method="POST" name="form1" onsubmit="return result()">
+
+   <input type="text" name="name"/>
+   <button type="submit">Send</button>
+
+   </form>
+  
+    </div>
+
+    <!-- JAVASCRIPT body nin en sonuna yazılmalıdır -->
+    
+</body>
+</html>
