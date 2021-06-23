@@ -1,0 +1,41 @@
+p{
+    color: rgb(15, 15, 200);
+}
+button{
+    background-color: aqua;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.github{
+    text-decoration: none;
+}
+#blackbox{
+    width: 70px;
+    height: 70px;
+    background: black;
+    border: 1px solid red;
+}
+#redbox{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 0, 0);
+    border: 5px solid black;
+}
+#bluebox{
+    width: 400px;
+    height: 200px;
+    background: #00f;
+    border: 5px groove purple;
+    border-radius: 10px;
+}
+.java{
+ background: greenyellow;
+}
+body{
+    background-color: #ff00f9;
+}
+.white{
+ background: white;
+ width: 70px;
+ height: 70px;
+}

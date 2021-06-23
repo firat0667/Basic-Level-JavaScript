@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/indeCss.css">
+</head>
+<body>
+    <p>Lorem ipsum dolar sit amet</p> <!--block elemandır-->
+    <p class="java">JavaScript</p> 
+    <span>Fırat</span> <!--inline bulundugu alan kadar yer kaplar-->
+
+    <form action="deneme.php" method="POST">
+        <fieldset> <!--kutunun içine almamızı saglıor-->
+            <legend>Name and surname</legend>
+            <br/>
+            <label for="name">Enter Your name:</label>
+            <input type="text " id="name" class="name"> <br/>
+            <br/>
+             <label for="surname">Enter your surname</label>
+            <input type="text" id="surname"> <br/>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="woman">Woman</label>
+            <input type="radio" value="Woman" id="woman" name="gender">
+    
+            <label for="man">Man</label>
+            <input type="radio" name="gender" id="man" value="Man">
+            <!--name aynı olması gerekir radiobutton yapılması için-->
+
+
+        </fieldset>
+
+        <br/>
+
+        <fieldset>
+            <legend>Mail</legend>
+         Email :  <input type="email">
+         Password: <input type="password">
+         File: <input type="file">
+         Color: <input type="color">
+         Tel:   <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="5xx-xxx-xx-xx">
+         lütfen xxx-xxx-xx-xx seklinde girin
+        </fieldset>
+         <br/>
+        <input type="submit" value="Save"> <!--type submit == button-->
+
+        <!--get methodu getirmemizi sağlar
+            
+        
+        -->
+        
+      
+    </form>
+</body>
+</html>
